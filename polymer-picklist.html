@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`polymer-picklist`
+A polymer element for selecting item(s) from a list
+
+@demo demo/index.html 
+-->
+
+<dom-module id="polymer-picklist">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'polymer-picklist',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'polymer-picklist',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
